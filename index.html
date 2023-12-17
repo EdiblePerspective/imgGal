@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="searchForm">
+    <label for="myQuery">Search Images</label>
+    <input tabindex="11" placeholder="search for images" name="myQuery" id="query" />
+</form>
+<div id="thumbnails">
+    <img tabindex="1" src="./placeholderImg/jesters.jpg" alt="a mournful jester">
+    <img tabindex="2" src="./placeholderImg/cat1.jpg" alt="a cat with mouth wide open">
+    <img tabindex="3" src="./placeholderImg/cat2.jpg" alt="a cat with sharp teeth smiling">
+    <img tabindex="4" src="./placeholderImg/jesters.jpg" alt="a mournful jester">
+    <img tabindex="5" src="./placeholderImg/cat1.jpg" alt="a cat with mouth wide open">
+    <img tabindex="6" src="./placeholderImg/cat2.jpg" alt="a cat with sharp teeth smiling">
+    <img tabindex="7" src="./placeholderImg/jesters.jpg" alt="a mournful jester">
+    <img tabindex="8" src="./placeholderImg/cat1.jpg" alt="a cat with mouth wide open">
+    <img tabindex="9" src="./placeholderImg/cat2.jpg" alt="a cat with sharp teeth smiling">
+    <img tabindex="10" src="./placeholderImg/jesters.jpg" alt="a mournful jester">
+</div>
+<div id="display">
+    <img id="disImg" src="./placeholderImg/jesters.jpg" alt="a mournful jester">
+    <p id="overlay" aria-live="assertive" aria-atomic="true"role="status">This is a jester doing jestery things blah blah blah blah</p>
+</div>
+</body>
+</html>
